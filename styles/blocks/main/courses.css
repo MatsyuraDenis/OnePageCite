@@ -49,6 +49,7 @@
 
 .course-image-setting{
     position: relative;
+    transition: 0.2s;
 }
 
 .about-course:hover .course-header{

@@ -1,0 +1,149 @@
+.loftblog-courses{
+  padding-top: 80px;
+  background-image: url("../../../pictures/gplaypattern.png");
+  background-color: darkgrey;
+  width: 100%;
+  padding-bottom: 60px;
+  font-size: 0px;
+}
+
+.courses-headline{
+  font-family: FiraSans-Medium;
+  font-size: 42.278px;
+  color: #212121;
+  text-align: center;
+}
+
+.courses-headline2 {
+  font-family: FiraSans-Light;
+  font-size: 21px;
+  text-align: center;
+  color: #a7a8a6;
+  margin-top: 25px; 
+  margin-bottom: 45px;
+}
+
+
+.list-of-courses{
+  margin: 0 -10px;
+  padding: 0;
+}
+
+.list-of-courses-item{
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.about-course{
+  background-color: #ffffff;
+  width: 300px;
+  transition: 0.2s;
+}
+
+.about-course:hover{
+    box-shadow: 0 0 7px #e4e5e2;
+}
+
+.course-image-setting{
+    position: relative;
+}
+
+.about-course:hover .course-header{
+  color: #a3cf6f;
+}
+
+.about-course:hover .course-image-setting:after{
+    content: "";
+    position: absolute;
+    background-color: #8CC34B;
+    width: 100%;
+    /*left: 0px;
+    right: 0px;*/
+    display: block;
+    bottom: 0px;
+    height: 5px;
+}
+
+.link-to-course{
+  text-decoration: none;
+}
+
+.course-header, .course-image-setting{
+    transition: 0.3s;
+}
+
+.course-header{
+  font-family: FiraSans-regular;
+  font-size:21px;
+  color: #212121;
+}
+
+.course__padding{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.course-text{
+  font-family: FiraSans-Light;
+  font-size: 14px;
+  color: #aaaaaa;
+  line-height: 1.5em;
+}
+
+.course-time{
+  margin-top: 19px;
+  margin-bottom: 19px;
+  font-family: FiraSans-Light;
+  font-size: 14px;
+  color: #c5c5c5;
+}
+
+.checked{
+  height: 60px;
+  width: 300px;
+  background-color: #f6f7f2;
+  padding: 20px 20px;
+}
+
+.check{
+  display: none;
+}
+
+.label{
+  font-family: FiraSans-regular;
+  font-size: 18px;
+  color: #b0b0ae;
+  color: rgb(114, 114, 114);
+}
+
+.check + .label:before{
+  content: "\2714";
+  border-width: 2px;
+  border-color: #b6b6b6;
+  color:white;
+  border-style: solid;
+  border-radius: 2px;
+  background-color: #ffffff;
+  padding: 2px 4px;
+  margin-right: 20px;
+}
+
+@keyframes hideIt{
+    from{width: 300px;}
+    to{width: 0px;}
+}
+
+
+.check:checked+.label:before {
+  background-color: #A2C777;
+  color: white;
+}
+
+.check:checked + .label{
+    color: #c7e0a9;
+}

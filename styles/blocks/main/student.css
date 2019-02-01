@@ -1,0 +1,64 @@
+.student{
+  padding-top: 80px; 
+}
+
+.student-headline0{
+  color: #303030;
+  font-family: FiraSans-Medium;
+  font-size: 42px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.student-headline{
+  color:  #858585;
+  font-family: FiraSans-Light;
+  font-size: 21px;
+  text-align: center;
+}
+
+.student-info{
+  margin-bottom: 75px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-list{
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+.info-item{
+  float:left;
+  width: 50%;
+}
+
+.image, .short-info{
+    display: inline-block;
+}
+
+.image{
+  margin-right: 21px;
+  vertical-align: top;
+}
+
+.short-info{
+    width: 260px;
+    font-family: FiraSans-Light;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(114, 114, 114);
+    /*color: #a1a1a1;*/
+}
+
+.short-info-header{
+    font-family: FiraSans-Regular;
+    font-size: 21px;
+    color: rgb(33, 33, 33);
+}
+
+.yandex_link{
+    text-decoration-color: #03a9f4;
+    color: #03a9f4;
+}

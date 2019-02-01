@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'FiraSans-Light';
+    /*src: url('../fonts/firasans-light-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-light-webfont.woff') format('woff');
+    font-weight: normal;*/
+    src: url("../../fonts/FiraSans/FiraSans-Light.ttf");
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'FiraSans-Regular';
+    /*src: url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-regular-webfont.woff') format('woff');*/
+    src: url("../../fonts/FiraSans/FiraSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'FiraSans-Medium';
+    /*src: url('../fonts/firasans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-medium-webfont.woff') format('woff');
+    font-weight: normal;*/
+    src: url("../../fonts/FiraSans/FiraSans-Medium.ttf");
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'FontAwesome';
+    /*src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+         url('../fonts/fontawesome-webfont.woff') format('woff');*/
+    src: url("../../fonts/FontAwesome/fontawesome-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+}
